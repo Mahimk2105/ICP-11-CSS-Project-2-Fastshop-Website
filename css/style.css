@@ -5,7 +5,6 @@
     font-family: "Rokkitt", sans-serif;
 }
 body {
-    /* background-color: #205781; */
     color: #fff;
 }
 .shop-logo{
@@ -49,6 +48,5 @@ header {
 }
 .search-bar {
     padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    
 }
