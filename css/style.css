@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Rokkitt", sans-serif;
 }
 body {
-    background-color: #000;
+    /* background-color: #205781; */
     color: #fff;
 }
 .shop-logo{
-    height: 40px;
+    height: 45px;
     vertical-align: bottom;
 }
 header {
-    background-color: #fff;
+    background-color: #205781;
+    color: #F6F8D5;
+    font-size: larger;
     padding: 15px 50px;
     display: flex;
     justify-content: space-between;
@@ -25,9 +27,8 @@ header {
     width: 100%;
 }
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    color: black;
 }
 nav ul {
     list-style: none;
@@ -40,11 +41,11 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #F6F8D5;
     font-weight: bold;
 }
 .search-bar {
-    padding: 5px;
+    padding: 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
