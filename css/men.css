@@ -30,7 +30,7 @@
     flex-wrap: wrap;
 }
 .card:hover{
-    border: 5px solid #a5eaea;
+    border: 5px solid #4F959D;
     
    
 }
@@ -50,11 +50,21 @@
     display: block;
     width: 280px;
     text-align: justify;
-    
 }
 .butt{
     background: greenyellow;
     margin: 20px ;
     margin-left: 40%;
     text-align: center;
+    border-radius: 20%;
+    font-size: 15px;
+    color: #262727;
+}
+.butt:hover{
+    box-shadow: 0 0 10px 2px black;
+}
+.ulaline{
+    text-align: left;
+    display: block; 
+    padding-left: 5%;
 }
