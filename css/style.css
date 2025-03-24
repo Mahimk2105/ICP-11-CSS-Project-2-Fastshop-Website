@@ -5,16 +5,12 @@
     font-family: "Rokkitt", sans-serif;
 }
 
-body {
-    color: #fff;
-}
-
 .shop-logo{
     height: 45px;
     vertical-align: bottom;
 }
 
-header {
+.header {
     background-color: #205781;
     color: #F6F8D5;
     font-size: larger;
@@ -22,6 +18,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); 
 }
 
 .navbar {
@@ -69,6 +70,26 @@ header {
     width: 100%;
 }
 
+.top-bar {
+    position: absolute; 
+    top: 10px;
+    right: 20px;
+    font-size: 14px;
+}
+
+.top-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.top-link {
+    text-decoration: none;
+    color: #F6F8D5;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
 .search-bar{
     display: flex;
     align-items: center;
@@ -76,6 +97,7 @@ header {
     border-radius: 20px;
     padding: 8px 12px;
     width: 150px;
+    margin-top: 20px;
     border: none;
     outline: none;
     font-size: 16px;
@@ -88,3 +110,6 @@ header {
     flex: 1;
     font-size: 16px;
  }
+
+
+
