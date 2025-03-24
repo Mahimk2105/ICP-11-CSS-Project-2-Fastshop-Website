@@ -45,14 +45,28 @@ header {
 }
 
 .nav-links-text {
+    position: relative;
     margin: 0 15px;
     text-decoration: none;
     color: #F6F8D5;
     font-weight: bold;
+    display: inline-block;
 }
 
-.nav-links-text:hover{
-    border-bottom: #F6F8D5 2px solid;
+.nav-links-text::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #F6F8D5;
+    transition: all 0.3s ease-out;
+    transform: translateX(-50%);
+}
+
+.nav-links-text:hover::after {
+    width: 100%;
 }
 
 .search-bar{
