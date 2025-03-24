@@ -1,24 +1,37 @@
 .contanor{
-        
+    flex-direction: column;
     display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;
+  
+}
+.contanor1{
+    flex-direction: row;
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  
 }
 .card{
+    
     width: 300px;
     border: 5px solid black;
     border-radius: 5%;
     text-align: center;
     display: flex;
     padding: 2% 3%;
-    
     display: flex;
     flex-wrap: wrap;
 }
 .card:hover{
     border: 5px solid #a5eaea;
+    
    
 }
 .img{
@@ -27,16 +40,17 @@
     border: 3px solid black;
     margin-bottom: 3%;
 }
-.img:hover{
-    box-shadow: 0 0 10px 2px #00ffff;
-    border: 1px solid #00ffff;
-    width: 400px;
-    height:300px ;
+.img:hover {
+    box-shadow: 1px 1px 10px 0 #00ffff;
+    border-color: #00ffff;
+    transform: scale(1.2);
+    margin-bottom: 20px;
 }
 .text{
     display: block;
-    width: 300px;
+    width: 280px;
     text-align: justify;
+    
 }
 .butt{
     background: greenyellow;
