@@ -164,6 +164,7 @@
 
 .list-footer a:hover {
     color: #98D2C0;
+    font-weight: bold;
 }
 
 .social-icons a {
@@ -193,4 +194,5 @@
 }
 .contact-link:hover{
     color: #98D2C0;
+    font-weight: bold;
 }
