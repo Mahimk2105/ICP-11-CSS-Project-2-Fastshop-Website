@@ -14,7 +14,7 @@
     margin:40px 35px;
     
 }
-.logo {
+.logo-sec {
     height:50px;
     margin:60px;
 }
@@ -50,4 +50,11 @@
 }
 .description-7 {
     margin:-5px 35px 0px 25px;   
+}
+.contact-link{
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;    
+}
+.contact-link:hover{
+    color: #ff0000;
 }
