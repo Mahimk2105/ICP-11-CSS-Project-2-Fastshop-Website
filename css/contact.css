@@ -1,0 +1,29 @@
+.container {
+    height:550px;
+    width:1000px;
+    background-color:aqua;
+    margin:20px 150px;
+    display:flex;
+    flex-direction: row;
+}
+.item {
+    height:100px;
+    width:300px;
+    margin:20px 50px;
+    
+}
+.logo {
+    height:50px;
+    margin:60px;
+}
+.description {
+    margin:-30px 38px;
+    font-weight:bold;
+}
+.description-1 {
+    margin:20px 45px 0px 45px;
+
+}
+.description-2 {
+    margin:5px 35px;
+}
