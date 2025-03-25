@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .login-container {
@@ -24,6 +24,10 @@
     margin-bottom: 20px;
 }
 
+.name-title{
+    text-align: left;
+    margin-bottom: 3px;
+}
 .login-container input {
     width: 100%;
     padding: 10px;
@@ -31,6 +35,24 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .login-container button {
@@ -47,6 +69,8 @@
 
 .login-container button:hover {
     background: #183e5b;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
 .login-container p {
