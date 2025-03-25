@@ -38,6 +38,10 @@
     color: #F6F8D5;
 }
 
+.login-logo{
+    height: 35px;
+    vertical-align: bottom;
+}
 .nav-links {
     list-style: none;
     display: flex;
@@ -110,6 +114,3 @@
     flex: 1;
     font-size: 16px;
  }
-
-
-
