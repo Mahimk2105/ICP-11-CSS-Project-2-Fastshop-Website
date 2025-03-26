@@ -1,7 +1,7 @@
-
 /* 1=#205781
 2=#4F959D
 3=98D2C0
+
 */.contanor{
     flex-direction: column;
     display: flex;
@@ -10,8 +10,8 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
-  
 }
+
 .contanor1{
     flex-direction: row;
     display: flex;
@@ -20,8 +20,8 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
-  
 }
+
 .card{
     background-color: #98D2C0;
     width: 320px;
@@ -33,11 +33,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .card:hover{
     border: 5px solid #4F959D;
-    box-shadow: 1px 1px 15px 0 #4F959D;
-   
+    box-shadow: 1px 1px 15px 0 #4F959D;   
 }
+
 .img{
     width: 290px;
     height: 200px;
@@ -45,6 +46,7 @@
     margin-bottom: 3%;
     border-radius: 5%;
 }
+
 .img:hover {
     box-shadow: 1px 1px 15px 0 #4F959D;
     border-color: #4F959D;
@@ -53,47 +55,35 @@
     width: 300px;
     border-radius: 15%;
 }
+
 .text{
     display: block;
     width: 280px;
     text-align: justify;
     color: black;
 }
-.butt{
-    background: #205781;
-    margin: 20px ;
-    margin-left: 40%;
-    text-align: center;
-    border: 3px solid black;
-    border-radius: 20%;
-    padding: 3% 4%;
-    font-size: 15px;
-    color: #262727;
-    color: white;
-}
-.butt:hover{
-    box-shadow: 0 0 15px 2px #F6F8D5;
-    background: #F6F8D5;
-    color: #205781;
-   
-}
+
 .ulaline{
     text-align: left;
     display: block; 
     padding-left: 5%;
 }
+
 .knowmore{
     color: #000000;
     font-size: 20px;
 }
+
 .price{
     color: red;
     font-size: 20px;
 }
+
 .trueprice{
     color: green;
     font-size: 20px;
 }
+
 .button {
     justify-content: center;
     margin: 60px auto 0 auto;
@@ -111,6 +101,7 @@
     display: flex;
     align-items: center;
 }
+
 .button:hover {
     background:#205781;
     box-shadow: 0 0 5px 0 black;
