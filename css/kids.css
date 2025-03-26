@@ -4,9 +4,11 @@
     margin-top: 15px;
     margin-left: 35%;
 }
+
 .kids-header:hover{
     font-weight: 600;
 }
+
 .kids-gender-card{
     height: 400px;
     width:310px;
@@ -16,11 +18,13 @@
     display:inline-block;
     box-shadow:1px -1px 4px 0.2px;   
 }
+
 .kids-gender-card:hover{
     transition: 0.5s;
     box-shadow:4px -3px 12px 3px #3D3D3D ;
     
 }
+
 .kids-gender-container{
     height:490px;
     width:1445px;
@@ -55,9 +59,11 @@
     font-weight: bold;
     color:#205781;
 }
+
 .kidsbtn a:hover{
     color:#98D2C0;
 }
+
 .kidsbtn:hover {
     background:#205781;
     color: #98D2C0;

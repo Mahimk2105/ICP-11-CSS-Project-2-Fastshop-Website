@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .card {
     background-color:#4F959D;
     border-radius: 15px;
@@ -23,14 +24,17 @@
     padding: 20px;
     transition: transform 0.3s ease-in-out;
 }
+
 .card:hover {
     transform: scale(1.05);
 }
+
 .card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
+
 .card-img:hover{
         box-shadow: 1px 1px 15px 0 #4F959D;
         border-color: #4F959D;
@@ -38,17 +42,20 @@
         margin-bottom: 20px;
         width: 300px;
         border-radius: 15%;
-    }
+}
+
 .card h3 {
     margin: 15px 0 10px;
     font-size: 1.4em;
     color: #fff;
 }
+
 .card p {
     color:#F6F8D5;
     font-size: 1em;
     margin-bottom: 15px;
 }
+
 .card button {
     position: sticky;
     justify-content: center;

@@ -50,11 +50,13 @@
     font-size: 1.4em;
     color: #fff;
 }
+
 .card p {
     color:#F6F8D5;
     font-size: 1em;
     margin-bottom: 15px;
 }
+
 .card button {
     position: sticky;
     justify-content: center;

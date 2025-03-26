@@ -1,8 +1,8 @@
 /* 1=#205781
 2=#4F959D
 3=98D2C0
-
-*/.contanor{
+*/
+.contanor{
     flex-direction: column;
     display: flex;
     display: inline-block;
