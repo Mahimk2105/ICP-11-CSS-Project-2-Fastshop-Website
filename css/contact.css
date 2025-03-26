@@ -1,7 +1,6 @@
 .container {
     height:550px;
     width:1180px;
-    
     margin:20px 80px;
     display:flex;
     flex-direction: row;
@@ -11,8 +10,7 @@
 .item {
     height:100px;
     width:300px;
-    margin:40px 35px;
-    
+    margin:40px 35px;    
 }
 .logo-sec {
     height:50px;
