@@ -1,7 +1,6 @@
 .container {
     height:550px;
     width:1180px;
-    
     margin:20px 80px;
     display:flex;
     flex-direction: row;
@@ -11,10 +10,9 @@
 .item {
     height:100px;
     width:300px;
-    margin:40px 35px;
-    
+    margin:40px 35px;    
 }
-.logo {
+.logo-sec {
     height:50px;
     margin:60px;
 }
@@ -50,4 +48,11 @@
 }
 .description-7 {
     margin:-5px 35px 0px 25px;   
+}
+.contact-link{
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;    
+}
+.contact-link:hover{
+    color: #ff0000;
 }
