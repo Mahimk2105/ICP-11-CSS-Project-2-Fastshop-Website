@@ -399,7 +399,6 @@
     font-weight: bold;
 }
 
-/* Mobile View Adjustments */
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -457,6 +456,9 @@
         margin: 10px 0;
     }
 
+    .top-bar{
+        display: none;
+    }
     .footer {
         padding: 20px 0;
     }
