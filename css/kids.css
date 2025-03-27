@@ -16,7 +16,8 @@
     border-radius: 7px;
     margin:42px; 
     display:inline-block;
-    box-shadow:1px -1px 4px 0.2px;   
+    box-shadow:1px -1px 4px 0.2px; 
+      
 }
 
 .kids-gender-card:hover{
@@ -69,3 +70,19 @@
     transition: 0.3s;
     box-shadow: 0 0 5px 0 black;
 }
+/*mobile*/
+@media(max-width:768px){
+    .kids-gender-container{
+        height: 100%;
+        width: 100%;
+    }
+
+    .kids-header{
+        font-size: 35px;
+        margin-left: 16%;
+        margin-top: 30px;
+
+    }
+}
+
+
