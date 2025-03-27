@@ -13,7 +13,7 @@
     text-align: center;
     color: #000;
     padding: 10px;
-    font-size: 40px;
+    font-size: 250px;
     font-weight: bolder;
 }
 .sneaker-title {
@@ -117,7 +117,7 @@
 }
 
 .category img {
-    width: 100%;
+    width: 70%;
     border-radius: 5px;
 }
 
@@ -134,18 +134,14 @@
     cursor: pointer;
 }
 
-.category .tag:hover {
-    background: #ccc;
-}
-
 .images-link{
     margin: 30px;
     height: 75%;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 3px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
 .images-link:hover{
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 4px 5px 7px 0 rgba(0, 0, 0, 0.8);
     transition: 0.3s;
     transform: scale(1.04);
 }
