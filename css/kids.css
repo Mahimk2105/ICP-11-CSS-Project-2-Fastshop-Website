@@ -1,12 +1,14 @@
 .kids-header{
     color: #4F959D;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 15px;
     margin-left: 36%;
 }
+
 .kids-header:hover{
-    font-weight: 800;
+    font-weight: 600;
 }
+
 .kids-gender-card{
     height: 400px;
     width:310px;
@@ -16,11 +18,13 @@
     display:inline-block;
     box-shadow:1px -1px 4px 0.2px;   
 }
+
 .kids-gender-card:hover{
     transition: 0.5s;
     box-shadow:4px -3px 12px 3px #3D3D3D ;
     
 }
+
 .kids-gender-container{
     height:490px;
     width:1445px;
@@ -32,20 +36,36 @@
     align-items:center;
     flex-wrap: wrap;
 }
+
 .kidsbtn{
-    width: 130px;
-    background-color: #4F959D;
-    color: white;
-    padding: 10px;
+    justify-content: center;
+    margin: 60px auto 0 auto;
+    background: #98D2C0;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 20px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    margin-left:35px ;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 3px 0 black;
+    display: flex;
+    align-items: center;
 }
-.kidsbtn:hover{
-    
-    transition: 0.3s;
+
+.kidsbtn a{
+    text-decoration: none;
     font-weight: bold;
+    color:#205781;
+}
+
+.kidsbtn a:hover{
+    color:#98D2C0;
+}
+
+.kidsbtn:hover {
+    background:#205781;
+    color: #98D2C0;
+    transition: 0.3s;
+    box-shadow: 0 0 5px 0 black;
 }
