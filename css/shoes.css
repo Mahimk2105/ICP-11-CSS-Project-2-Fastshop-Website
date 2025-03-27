@@ -3,12 +3,12 @@
     background-color: #4F959D;
     color: #F6F8D5;
     padding: 10px;
-    font-size: 28px;
-    font-weight: bolder;
+    font-size: large;
 }
 
 .container {
     display: flex;
+    margin: 15px;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,7 +17,7 @@
 .card {
     background-color:#4F959D;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 280px;
     text-align: center;
@@ -26,24 +26,25 @@
 }
 
 .card:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
     transform: scale(1.05);
 }
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 50%;
     border-radius: 10px;
 }
 
-.card-img:hover{
-        box-shadow: 1px 1px 15px 0 #4F959D;
-        border-color: #4F959D;
-        transform: scale(1.2);
-        margin-bottom: 20px;
-        width: 300px;
-        border-radius: 15%;
+.card img:hover{
+    box-shadow: 1px 1px 15px 0 #4F959D;
+    border-color: #4F959D;
+    transition: 0.3s;
+    transform: scale(1.2);
+    margin-bottom: 20px;
 }
-
+    
 .card h3 {
     margin: 15px 0 10px;
     font-size: 1.4em;
@@ -68,7 +69,7 @@
     border-radius: 20px;
     cursor: pointer;
     font-size: 1em;
-    transition: background 0.3s;
+    transition: 0.3s;
     box-shadow: 0 0 3px 0 black;
 }
 
