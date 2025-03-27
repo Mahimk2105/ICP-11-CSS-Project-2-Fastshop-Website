@@ -6,13 +6,13 @@ Welcome to the **Fastshop FastTreads Shoes Website** repository! This project is
 
 ---
 ## Features🎯
-1. Responsive Design: Ensures optimal viewing on desktops, tablets, and mobile devices.
+1. **Responsive Design:** Ensures optimal viewing on desktops, tablets, and mobile devices.
    
-2. Product Showcase: Highlights various shoe models with detailed descriptions and images.​
+2. **Product Showcase:** Highlights various shoe models with detailed descriptions and images.​
 
-3. Interactive Elements: Incorporates hover effects and animations to enhance user engagement.​
+3. **Interactive Elements:** Incorporates hover effects and animations to enhance user engagement.​
 
-4. Navigation: Provides intuitive navigation menus for seamless browsing.
+4. **Navigation:** Provides intuitive navigation menus for seamless browsing.
 
 ---
 

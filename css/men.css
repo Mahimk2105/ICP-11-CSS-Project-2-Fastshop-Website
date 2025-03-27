@@ -27,34 +27,35 @@
     background-color: #4F959D;
     width: 320px;
     border: 2px solid #205781;
-    border-radius: 5%;
+    border-radius: 15px;
     text-align: center;
     display: flex;
     padding: 2% 3%;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 #000000;   
 }
 
 .card:hover{
-    border: 5px solid #4F959D;
-    box-shadow: 1px 1px 15px 0 #4F959D;   
+    border: 3px solid #4F959D;
+    transition: 0.4s;
+    box-shadow: 0 0 15px 0 #000000;   
 }
 
 .img{
-    width: 290px;
+    width: 300px;
     height: 200px;
-    border: 2px solid #205781;
     margin-bottom: 3%;
-    border-radius: 5%;
+    border-radius: 15px;
 }
 
 .img:hover {
     box-shadow: 1px 1px 15px 0 #4F959D;
     border-color: #4F959D;
+    transition: 0.4s;
     transform: scale(1.2);
     margin-bottom: 20px;
     width: 300px;
-    border-radius: 15%;
 }
 
 .text{
