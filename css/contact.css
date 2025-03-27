@@ -60,11 +60,12 @@
     margin:-5px 35px 0px 25px;   
 }
 
-.contact-link{
+.contact-links{
     text-decoration: none;
+    color: #205781;
     transition: color 0.3s ease-in-out;    
 }
 
-.contact-link:hover{
+.contact-links:hover{
     color: #ff0000;
 }
