@@ -60,7 +60,12 @@
     margin:-5px 35px 0px 25px;   
 }
 
-.contact-links{
+@media (max-width:700px) {
+    .item {
+        width:100%;
+    }
+
+  .contact-links{
     text-decoration: none;
     color: #205781;
     transition: color 0.3s ease-in-out;    
@@ -68,4 +73,5 @@
 
 .contact-links:hover{
     color: #ff0000;
+
 }
