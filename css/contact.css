@@ -51,3 +51,9 @@
 .description-7 {
     margin:-5px 35px 0px 25px;   
 }
+/* Mobile Device */
+@media (max-width:700px) {
+    .item {
+        width:100%;
+    }
+}
