@@ -6,14 +6,15 @@
     width: 350px;
     margin: 0 auto;
     margin-top: 70px;
+    margin-bottom: 40px;
 }
 
-.signup-container:hover{
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+.signup-container:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     transition: 0.3s;
 }
 
-.signup-container h2 {
+.header-sec {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -56,7 +57,7 @@
 }
 
 .signup-button:hover {
-    background: #183e5b;
+    background: #11c022;
     transition: 0.3s;
     font-weight: bold;
 }
@@ -73,4 +74,32 @@
 
 .login-link a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .signup-container {
+        width: 80%;  
+        margin-top: 50px;
+    }
+
+    .signup-button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        width: 90%; 
+        margin-top: 40px;
+    }
+
+    .header-sec h2 {
+        font-size: 22px; 
+    }
+
+    .signup-button {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
