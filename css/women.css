@@ -12,9 +12,11 @@
     display: block;
     text-align: center;
 }
+
 .sub-navbar a:hover {
     border-bottom: #F6F8D5 2px solid;
 }
+
 .womens-h2{
     position: absolute;
     left: 30px; 
@@ -66,8 +68,31 @@
     margin-bottom: 10px;
     font-size: x-large;
 }
-@media screen and (max-width: 768px) {
-    .sub-navbar {
+.shoe-image{
+    display: block;
+    margin: auto;
+    height: 50%;
+    max-width: 100%;
+    width: 80%;
+    box-shadow: #205781;
+   
+    }
+    .h3{
+        text-align: center;
+        padding-top: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 800px;
+        font-size: xx-large;
+    }
+
+    .link-title{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+   
+@media (max-width: 1024px) {
+    .navbar {
         flex-direction: column;
         padding: 5px 0;
     }

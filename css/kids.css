@@ -1,0 +1,71 @@
+.kids-header{
+    color: #4F959D;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 36%;
+}
+
+.kids-header:hover{
+    font-weight: 600;
+}
+
+.kids-gender-card{
+    height: 400px;
+    width:310px;
+    border: #205781  0.5px;
+    border-radius: 7px;
+    margin:42px; 
+    display:inline-block;
+    box-shadow:1px -1px 4px 0.2px;   
+}
+
+.kids-gender-card:hover{
+    transition: 0.5s;
+    box-shadow:4px -3px 12px 3px #3D3D3D ;
+    
+}
+
+.kids-gender-container{
+    height:490px;
+    width:1445px;
+    padding:10px;
+    border-radius: 10px;
+    margin:17px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.kidsbtn{
+    justify-content: center;
+    margin: 60px auto 0 auto;
+    background: #98D2C0;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 3px 0 black;
+    display: flex;
+    align-items: center;
+}
+
+.kidsbtn a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#205781;
+}
+
+.kidsbtn a:hover{
+    color:#98D2C0;
+}
+
+.kidsbtn:hover {
+    background:#205781;
+    color: #98D2C0;
+    transition: 0.3s;
+    box-shadow: 0 0 5px 0 black;
+}
