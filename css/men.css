@@ -114,13 +114,12 @@
     height: 250px;
 }
 
-/* for mobile*/
 @media (max-width: 600px){
     .card{
         margin-left: 30%;
     }
 }
-/* tab */
+
 @media screen and (min-width: 768px) and (max-width: 920px) {
 
     .contanor1{
@@ -143,7 +142,6 @@
     margin-left: 15%;
 }
 }
-/* mini laptop */
   @media screen and (min-width: 992px) and (max-width: 1200px) {
 
     .contanor1{
@@ -168,6 +166,7 @@
         padding: 15px;
         padding-left: 10px;
     }
+
     .card{
         background-color: #4F959D;
         width: 280px;
@@ -179,6 +178,7 @@
         display: flex;
         flex-wrap: wrap;
     }
+
     .img{
         width: 260px;
         height: 200px;
@@ -186,24 +186,29 @@
         margin-bottom: 3%;
         border-radius: 5%;
     }
+
     .knowmore{
         color: #000000;
         font-size: 15px;
     }
+
     .text{
         display: block;
         width: 260px;
         text-align: justify;
         color: black;
     }
+
     .trueprice{
         color:#F6F8D5;
         font-size: 15px;
     }
+
     .price{
         color: red;
         font-size: 20px;
     }
+    
     .text1{
         height: 240px;
     }

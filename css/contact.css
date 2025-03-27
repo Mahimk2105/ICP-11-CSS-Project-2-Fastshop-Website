@@ -6,6 +6,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
+    overflow: hidden;
 }
 
 .item {
@@ -57,15 +58,15 @@
 }
 
 .description-7 {
-    margin:-5px 35px 0px 25px;   
+    margin: 4px 35px 0px 25px; 
 }
 
-@media (max-width:700px) {
-    .item {
-        width:100%;
-    }
+.description-8{
+    margin: 0 35px 0px 21px;
+    margin-left: 2%;
+}
 
-  .contact-links{
+.contact-links{
     text-decoration: none;
     color: #205781;
     transition: color 0.3s ease-in-out;    
@@ -73,5 +74,65 @@
 
 .contact-links:hover{
     color: #ff0000;
+}
 
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 90%;
+        height: auto;
+        margin: 40px 0;
+    }
+
+    .logo-sec {
+        height: 40px;
+        margin: 30px auto;
+    }
+
+    .logo-1 {
+        height: 40px;
+        margin: 30px auto;
+    }
+
+    .description,
+    .description-1,
+    .description-2,
+    .description-3,
+    .description-4,
+    .description-5,
+    .description-6,
+    .description-7 {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .description-8{
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .logo-sec  {
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-1{
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-links {
+        font-size: 14px;
+    }
 }
